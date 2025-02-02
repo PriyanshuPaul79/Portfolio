@@ -11,45 +11,6 @@ import Controller from '../components/Controller'
 import Herocam from '../components/Herocam'
 import Connect from '../components/Connect'
 const Hero = () => {
-  // used for leva controls 
-  // const usage = useControls('Laptop', {
-  //   positionX:{
-  //     value:2.5,
-  //     min:-10,
-  //     max:10
-  //   },
-  //   positionY:{
-  //     value:2.5,
-  //     min:-10,
-  //     max:15
-  //   },
-  //   positionZ:{
-  //     value:2.5,
-  //     min:-10,
-  //     max:10
-  //   },
-  //   rotationX:{
-  //     value:0,
-  //     min:-10,
-  //     max:10
-  //   },
-  //   rotationY:{
-  //     value:0,
-  //     min:-10,
-  //     max:10
-  //   },
-  //   rotationZ:{
-  //     value:0,
-  //     min:-10,
-  //     max:10
-  //   },
-  //   scale:{
-  //     value:1,
-  //     min:0.3,
-  //     max:10
-  //   }
-  // })
-
 
   const isMobile = useMediaQuery({ query: '(max-width: 450px)' })
   const isTablet = useMediaQuery({ query: '(min-width: 451px) and (max-width: 768px)' })
