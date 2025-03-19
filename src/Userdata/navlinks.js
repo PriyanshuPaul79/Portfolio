@@ -24,19 +24,19 @@ export const navLinks = [
   export const clientReviews = [
     {
       id: 1,
-      name: 'Emily Johnson',
+      name: 'Sarah Patel',
       position: 'Marketing Director at GreenLeaf',
       img: 'assets/review1.png',
       review:
-        'Working with Adrian was a fantastic experience. He transformed our outdated website into a modern, user-friendly platform. His attention to detail and commitment to quality are unmatched. Highly recommend him for any web dev projects.',
+        'Priyanshu was an absolute pleasure to work with! He transformed our vision into a stunning, responsive, and high-performing website. His expertise in React, coupled with his attention to detail, made our platform both visually appealing and highly functional. Highly recommend him for any frontend development work!',
     },
     {
       id: 2,
-      name: 'Mark Rogers',
+      name: 'Mohit Jain ',
       position: 'Founder of TechGear Shop',
       img: 'assets/review2.png',
       review:
-        'Adrian’s expertise in web development is truly impressive. He delivered a robust and scalable solution for our e-commerce site, and our online sales have significantly increased since the launch. He’s a true professional! Fantastic work.',
+        'We hired Priyanshu to revamp our web application, and he exceeded our expectations! His ability to integrate complex frontend designs while ensuring a smooth user experience is truly impressive. His knowledge of both JavaScript and Python also helped us bridge the gap between frontend and backend seamlessly.',
     },
     {
       id: 3,
@@ -44,7 +44,7 @@ export const navLinks = [
       position: 'Project Manager at UrbanTech ',
       img: 'assets/review3.png',
       review:
-        'I can’t say enough good things about Adrian. He was able to take our complex project requirements and turn them into a seamless, functional website. His problem-solving abilities are outstanding.',
+        "Priyanshu is not just a frontend developer; he's a problem-solver. He took our outdated interface and modernized it with clean, intuitive designs while maintaining optimal performance. His professionalism and ability to collaborate made the entire process smooth and efficient. 100% recommended!",
     },
     {
       id: 4,
@@ -52,7 +52,7 @@ export const navLinks = [
       position: 'CEO of BrightStar Enterprises',
       img: 'assets/review4.png',
       review:
-        'Adrian was a pleasure to work with. He understood our requirements perfectly and delivered a website that exceeded our expectations. His skills in both frontend backend dev are top-notch.',
+        "Working with Priyanshu was a fantastic experience. His grasp of frontend technologies, combined with his experience in Python projects, made him a valuable asset to our team. He delivered pixel-perfect designs, optimized for performance, and ensured smooth integrations with our backend. I wouldn't hesitate to work with him again!",
     },
   ];
   
@@ -61,8 +61,8 @@ export const navLinks = [
       title: 'BrewHaven',
       desc: 'Coffee Shop website',
       subdesc:
-        'Built as a unique Software-as-a-Service app with Next.js 14, Tailwind CSS, TypeScript, Framer Motion and Convex, Podcastr is designed for optimal performance and scalability.',
-      href: 'https://www.youtube.com/watch?v=zfAb95tJvZQ',
+        'Built this for a freelance for a coffee vendor to sell and advertise the different type of coffee products. ',
+      href: 'https://brewhaven79.vercel.app/',
       texture: '/public/brewHaven.webm',
       logo: '/assets/project-logo1.png',
       logoStyle: {
@@ -82,16 +82,7 @@ export const navLinks = [
           name: 'TailwindCSS',
           path: 'assets/tailwindcss.png',
         },
-        {
-          id: 3,
-          name: 'TypeScript',
-          path: '/assets/typescript.png',
-        },
-        {
-          id: 4,
-          name: 'Framer Motion',
-          path: '/assets/framer.png',
-        },
+        
       ],
     },
     {
@@ -99,7 +90,7 @@ export const navLinks = [
       desc: 'LiveDoc is a powerful collaborative app that elevates the capabilities of real-time document editing. As an enhanced version of Google Docs, It supports millions of collaborators simultaneously, ensuring that every change is captured instantly and accurately.',
       subdesc:
         'With LiveDoc, users can experience the future of collaboration, where multiple contributors work together in real time without any lag, by using Next.js and Liveblocks newest features.',
-      href: 'https://www.youtube.com/watch?v=y5vE8y_f_OM',
+      href: 'https://radioatlas.streamlit.app/',
       texture: '/public/RadioAtlas.webm',
       logo: '/assets/project-logo2.png',
       logoStyle: {
@@ -111,33 +102,23 @@ export const navLinks = [
       tags: [
         {
           id: 1,
-          name: 'React.js',
-          path: '/assets/react.svg',
+          name: 'Python',
+          path: '/assets/python.svg',
         },
         {
           id: 2,
-          name: 'TailwindCSS',
-          path: 'assets/tailwindcss.png',
-        },
-        {
-          id: 3,
-          name: 'TypeScript',
-          path: '/assets/typescript.png',
-        },
-        {
-          id: 4,
-          name: 'Framer Motion',
-          path: '/assets/framer.png',
+          name: 'Streamlit',
+          path: 'assets/streamlit.png',
         },
       ],
     },
     {
       title: 'AstroNautica',
-      desc: 'An innovative healthcare platform designed to streamline essential medical processes. It simplifies patient registration, appointment scheduling, and medical record management, providing a seamless experience for both healthcare providers and patients.',
+      desc: 'This website, titled "Travel," focuses on space tourism and stargazing.',
       subdesc:
-        'With a focus on efficiency, CarePulse integrantes complex forms and SMS notifications, by using Next.js, Appwrite, Twillio and Sentry that enhance operational workflows.',
-      href: 'https://www.youtube.com/watch?v=lEflo_sc82g',
-      texture: '/public/AstroNautica,webm',
+        'Key features include a celestial events calendar, virtual space tours, sky maps and stargazing guides, and educational resources on astronomy and space exploration. The platform aims to enable users to experience the cosmos, whether through actual travel or virtual engagement.',
+      href: 'https://astro-nautica42.vercel.app/',
+      texture: '/public/astronautica.webm',
       logo: '/assets/project-logo3.png',
       logoStyle: {
         backgroundColor: '#60f5a1',
@@ -150,8 +131,8 @@ export const navLinks = [
       tags: [
         {
           id: 1,
-          name: 'React.js',
-          path: '/assets/react.svg',
+          name: 'Next.js',
+          path: '/assets/next.svg',
         },
         {
           id: 2,
@@ -162,33 +143,30 @@ export const navLinks = [
           id: 3,
           name: 'TypeScript',
           path: '/assets/typescript.png',
-        },
-        {
-          id: 4,
-          name: 'Framer Motion',
-          path: '/assets/framer.png',
         },
       ],
     },
     {
-      title: 'Horizon - Online Banking Platform',
-      desc: 'Horizon is a comprehensive online banking platform that offers users a centralized finance management dashboard. It allows users to connect multiple bank accounts, monitor real-time transactions, and seamlessly transfer money to other users.',
+      title: 'Suraksha',
+      desc: 'An innovative healthcare platform designed to streamline essential medical processes. It simplifies patient registration, appointment scheduling, and medical record management, providing a seamless experience for both healthcare providers and patients.',
       subdesc:
-        'Built with Next.js 14 Appwrite, Dwolla and Plaid, Horizon ensures a smooth and secure banking experience, tailored to meet the needs of modern consumers.',
-      href: 'https://www.youtube.com/watch?v=PuOVqP_cjkE',
-      texture: '/textures/project/project4.mp4',
-      logo: '/assets/project-logo4.png',
+        'With a focus on efficiency, CarePulse integrantes complex forms and SMS notifications, by using Next.js, Appwrite, Twillio and Sentry that enhance operational workflows.',
+      href: '',
+      texture: '/public/suraksha.mp4',
+      logo: '/assets/project-logo3.png',
       logoStyle: {
-        backgroundColor: '#0E1F38',
-        border: '0.2px solid #0E2D58',
-        boxShadow: '0px 0px 60px 0px #2F67B64D',
+        backgroundColor: '#60f5a1',
+        background:
+          'linear-gradient(0deg, #60F5A150, #60F5A150), linear-gradient(180deg, rgba(255, 255, 255, 0.9) 0%, rgba(208, 213, 221, 0.8) 100%)',
+        border: '0.2px solid rgba(208, 213, 221, 1)',
+        boxShadow: '0px 0px 60px 0px rgba(35, 131, 96, 0.3)',
       },
-      spotlight: '/assets/spotlight4.png',
+      spotlight: '/assets/spotlight3.png',
       tags: [
         {
           id: 1,
-          name: 'React.js',
-          path: '/assets/react.svg',
+          name: 'Next.js',
+          path: '/assets/next.svg',
         },
         {
           id: 2,
@@ -197,54 +175,17 @@ export const navLinks = [
         },
         {
           id: 3,
-          name: 'TypeScript',
-          path: '/assets/typescript.png',
+          name: 'Prisma',
+          path: '/assets/Prisma.png',
         },
         {
           id: 4,
-          name: 'Framer Motion',
-          path: '/assets/framer.png',
-        },
-      ],
-    },
-    {
-      title: 'Imaginify - AI Photo Manipulation App',
-      desc: 'Imaginify is a groundbreaking Software-as-a-Service application that empowers users to create stunning photo manipulations using AI technology. With features like AI-driven image editing, a payments system, and a credits-based model.',
-      subdesc:
-        'Built with Next.js 14, Cloudinary AI, Clerk, and Stripe, Imaginify combines cutting-edge technology with a user-centric approach. It can be turned into a side income or even a full-fledged business.',
-      href: 'https://www.youtube.com/watch?v=Ahwoks_dawU',
-      texture: '/textures/project/project5.mp4',
-      logo: '/assets/project-logo5.png',
-      logoStyle: {
-        backgroundColor: '#1C1A43',
-        border: '0.2px solid #252262',
-        boxShadow: '0px 0px 60px 0px #635BFF4D',
-      },
-      spotlight: '/assets/spotlight5.png',
-      tags: [
-        {
-          id: 1,
-          name: 'React.js',
-          path: '/assets/react.svg',
-        },
-        {
-          id: 2,
-          name: 'TailwindCSS',
-          path: 'assets/tailwindcss.png',
-        },
-        {
-          id: 3,
-          name: 'TypeScript',
+          name: 'Typescript',
           path: '/assets/typescript.png',
         },
-        {
-          id: 4,
-          name: 'Framer Motion',
-          path: '/assets/framer.png',
-        },
       ],
     },
-  ];
+  ]
   
   export const calculateSizes = (isSmall, isMobile, isTablet) => {
     return {
@@ -257,32 +198,32 @@ export const navLinks = [
     };
   };
   
-  export const workExperiences = [
-    {
-      id: 1,
-      name: 'Framer',
-      pos: 'Lead Web Developer',
-      duration: '2022 - Present',
-      title: "Framer serves as my go-to tool for creating interactive prototypes. I use it to bring designs to  life, allowing stakeholders to experience the user flow and interactions before development.",
-      icon: '/assets/framer.svg',
-      animation: 'victory',
-    },
-    {
-      id: 2,
-      name: 'Figma',
-      pos: 'Web Developer',
-      duration: '2020 - 2022',
-      title: "Figma is my collaborative design platform of choice. I utilize it to work seamlessly with team members and clients, facilitating real-time feedback and design iterations. Its cloud-based.",
-      icon: '/assets/figma.svg',
-      animation: 'clapping',
-    },
-    {
-      id: 3,
-      name: 'Notion',
-      pos: 'Junior Web Developer',
-      duration: '2019 - 2020',
-      title: "Notion helps me keep my projects organized. I use it for project management, task tracking, and as a central hub for documentation, ensuring that everything from design notes to.",
-      icon: '/assets/notion.svg',
-      animation: 'salute',
-    },
-  ];
+  // export const workExperiences = [
+  //   {
+  //     id: 1,
+  //     name: 'Framer',
+  //     pos: 'Lead Web Developer',
+  //     duration: '2022 - Present',
+  //     title: "Framer serves as my go-to tool for creating interactive prototypes. I use it to bring designs to  life, allowing stakeholders to experience the user flow and interactions before development.",
+  //     icon: '/assets/framer.svg',
+  //     animation: 'victory',
+  //   },
+  //   {
+  //     id: 2,
+  //     name: 'Figma',
+  //     pos: 'Web Developer',
+  //     duration: '2020 - 2022',
+  //     title: "Figma is my collaborative design platform of choice. I utilize it to work seamlessly with team members and clients, facilitating real-time feedback and design iterations. Its cloud-based.",
+  //     icon: '/assets/figma.svg',
+  //     animation: 'clapping',
+  //   },
+  //   {
+  //     id: 3,
+  //     name: 'Notion',
+  //     pos: 'Junior Web Developer',
+  //     duration: '2019 - 2020',
+  //     title: "Notion helps me keep my projects organized. I use it for project management, task tracking, and as a central hub for documentation, ensuring that everything from design notes to.",
+  //     icon: '/assets/notion.svg',
+  //     animation: 'salute',
+  //   },
+  // ];
