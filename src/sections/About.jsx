@@ -20,7 +20,7 @@ const About = () => {
         <div className='grid xl:grid-cols-3 xl:grid-rows-6 md:grid-cols-1 gap-5 h-full overflow-x-hidden'>
             <div className='col-span-1 xl:row-span-3 '>
                 <div className='grid-container'>
-                    <img src="/assets/me.jpg" alt="Me" className='w-full sm:h-[276px] h-fit object-contain ' />
+                    <img src="/assets/Me.jpg" alt="Me" className='w-full sm:h-[276px] h-fit object-contain ' />
                     <div>
                         <p className='grid-headtext '>Hi, myself Priyanshu Paul</p>
                         <p className='grid-subtext '>I am a passionate Frontend Developer. Hurgry for learning new things everyday. AI enthusiast </p>

@@ -96,7 +96,7 @@ body {
   }
 
   .client-content {
-    @apply flex lg:flex-row flex-col justify-between lg:items-center items-start gap-5 mt-7;
+    @apply flex lg:flex-row flex-col justify-between lg:items-center items-start gap-16 mt-7;
   }
 
   /*  work experience section */

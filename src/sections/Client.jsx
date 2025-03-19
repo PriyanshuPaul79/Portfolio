@@ -7,7 +7,7 @@ const Client = () => {
         <h3 className='head-text'>Testimonials </h3>
     <div className='client-container'>
         {clientReviews.map(({id,name,review,position,img}) => (
-            <div className='client-card' key={id}>
+            <div className='client-review' key={id}>
                 <div>
                     <p className='text-white font-light '>{review}</p>
                     <div className='client-content'>
