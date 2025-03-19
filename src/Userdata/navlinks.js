@@ -148,9 +148,9 @@ export const navLinks = [
     },
     {
       title: 'Suraksha',
-      desc: 'An innovative healthcare platform designed to streamline essential medical processes. It simplifies patient registration, appointment scheduling, and medical record management, providing a seamless experience for both healthcare providers and patients.',
+      desc: 'Website created to report crime immediately at your fingertips while remainning anonymous.',
       subdesc:
-        'With a focus on efficiency, CarePulse integrantes complex forms and SMS notifications, by using Next.js, Appwrite, Twillio and Sentry that enhance operational workflows.',
+        'With a focus on efficiency,integrated security features, and a user-friendly interface, Suraksha empowers users to report crimes and incidents with ease, ensuring their safety and peace of mind. ',
       href: '',
       texture: '/suraksha.mp4',
       logo: '/assets/project-logo3.png',
@@ -176,13 +176,19 @@ export const navLinks = [
         {
           id: 3,
           name: 'Prisma',
-          path: '/assets/Prisma.png',
+          path: '/assets/prisma.svg',
         },
         {
           id: 4,
           name: 'Typescript',
           path: '/assets/typescript.png',
         },
+        {
+          id:5,
+          name:'OpenAI',
+          path:'/assets/openai.svg'
+
+        }
       ],
     },
   ]
