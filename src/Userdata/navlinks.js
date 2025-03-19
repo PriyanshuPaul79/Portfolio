@@ -63,7 +63,7 @@ export const navLinks = [
       subdesc:
         'Built this for a freelance for a coffee vendor to sell and advertise the different type of coffee products. ',
       href: 'https://brewhaven79.vercel.app/',
-      texture: '/public/brewHaven.webm',
+      texture: '/brewHaven.webm',
       logo: '/assets/project-logo1.png',
       logoStyle: {
         backgroundColor: '#2A1816',
@@ -91,7 +91,7 @@ export const navLinks = [
       subdesc:
         'With LiveDoc, users can experience the future of collaboration, where multiple contributors work together in real time without any lag, by using Next.js and Liveblocks newest features.',
       href: 'https://radioatlas.streamlit.app/',
-      texture: '/public/RadioAtlas.webm',
+      texture: '/RadioAtlas.webm',
       logo: '/assets/project-logo2.png',
       logoStyle: {
         backgroundColor: '#13202F',
@@ -118,7 +118,7 @@ export const navLinks = [
       subdesc:
         'Key features include a celestial events calendar, virtual space tours, sky maps and stargazing guides, and educational resources on astronomy and space exploration. The platform aims to enable users to experience the cosmos, whether through actual travel or virtual engagement.',
       href: 'https://astro-nautica42.vercel.app/',
-      texture: '/public/astronautica.webm',
+      texture: '/astronautica.webm',
       logo: '/assets/project-logo3.png',
       logoStyle: {
         backgroundColor: '#60f5a1',
@@ -152,7 +152,7 @@ export const navLinks = [
       subdesc:
         'With a focus on efficiency, CarePulse integrantes complex forms and SMS notifications, by using Next.js, Appwrite, Twillio and Sentry that enhance operational workflows.',
       href: '',
-      texture: '/public/suraksha.mp4',
+      texture: '/suraksha.mp4',
       logo: '/assets/project-logo3.png',
       logoStyle: {
         backgroundColor: '#60f5a1',
