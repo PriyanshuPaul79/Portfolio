@@ -9,7 +9,7 @@ import { texture } from 'three/webgpu'
 
 const Computer =(props)=> {
   const group = useRef()
-  const { nodes, materials, animations } = useGLTF('/public/computer.glb')
+  const { nodes, materials, animations } = useGLTF('/computer.glb')
   const { actions } = useAnimations(animations, group)
   const texture = useVideoTexture(props.texture? props.texture: '/public/vid1.webm')
   
@@ -1007,6 +1007,6 @@ const Computer =(props)=> {
   )
 }
 
-useGLTF.preload('/public/computer.glb')
+useGLTF.preload('/computer.glb')
 
 export default Computer;

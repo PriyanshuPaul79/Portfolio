@@ -9,7 +9,7 @@
 import { Float, useGLTF } from '@react-three/drei';
 
 const ReactLogo = (props) => {
-  const { nodes, materials } = useGLTF('public/FloatingIcons/react_logo.glb');
+  const { nodes, materials } = useGLTF('/FloatingIcons/react_logo.glb');
 
   return (
     <Float floatIntensity={1}>
@@ -26,6 +26,6 @@ const ReactLogo = (props) => {
   );
 };
 
-useGLTF.preload('public/FloatingIcons/react_logo.glb');
+useGLTF.preload('/FloatingIcons/react_logo.glb');
 
 export default ReactLogo;

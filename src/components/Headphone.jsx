@@ -11,7 +11,7 @@ import { Float, useGLTF } from '@react-three/drei'
 import { OrbitControls } from '@react-three/drei'
 
 export default function Model(props) {
-  const { nodes, materials } = useGLTF('/public/FloatingIcons/steampunk_headphones.glb')
+  const { nodes, materials } = useGLTF('/FloatingIcons/steampunk_headphones.glb')
   return (
     <Float>
 
@@ -42,4 +42,4 @@ export default function Model(props) {
   )
 }
 
-useGLTF.preload('/public/FloatingIcons/steampunk_headphones.glb')
+useGLTF.preload('/FloatingIcons/steampunk_headphones.glb')

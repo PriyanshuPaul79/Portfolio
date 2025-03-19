@@ -91,7 +91,7 @@ import React, { useRef } from 'react';
 import { Float, useGLTF } from '@react-three/drei';
 
 export default function Model(props) {
-  const { nodes, materials } = useGLTF('/public/FloatingIcons/ps5_controller.glb');
+  const { nodes, materials } = useGLTF('/FloatingIcons/ps5_controller.glb');
 
   return (
     <Float>
@@ -152,4 +152,4 @@ export default function Model(props) {
   );
 }
 
-useGLTF.preload('/public/FloatingIcons/ps5_controller.glb');
+useGLTF.preload('/FloatingIcons/ps5_controller.glb');
