@@ -58,39 +58,11 @@ export const navLinks = [
   
   export const myProjects = [
     {
-      title: 'BrewHaven',
-      desc: 'Coffee Shop website',
-      subdesc:
-        'Built this for a freelance for a coffee vendor to sell and advertise the different type of coffee products. ',
-      href: 'https://brewhaven79.vercel.app/',
-      texture: '/brewHaven.webm',
-      logo: '/assets/project-logo1.png',
-      logoStyle: {
-        backgroundColor: '#2A1816',
-        border: '0.2px solid #36201D',
-        boxShadow: '0px 0px 60px 0px #AA3C304D',
-      },
-      spotlight: '/assets/spotlight1.png',
-      tags: [
-        {
-          id: 1,
-          name: 'React.js',
-          path: '/assets/react.svg',
-        },
-        {
-          id: 2,
-          name: 'TailwindCSS',
-          path: 'assets/tailwindcss.png',
-        },
-        
-      ],
-    },
-    {
       title: 'RadioAtlas',
-      desc: 'LiveDoc is a powerful collaborative app that elevates the capabilities of real-time document editing. As an enhanced version of Google Docs, It supports millions of collaborators simultaneously, ensuring that every change is captured instantly and accurately.',
+      desc: 'Play retro radio songs at your fingertips.',
       subdesc:
-        'With LiveDoc, users can experience the future of collaboration, where multiple contributors work together in real time without any lag, by using Next.js and Liveblocks newest features.',
-      href: 'https://radioatlas.streamlit.app/',
+        'With radioAtlas, users can listen to radio across different station across the world. It features a user-friendly interface, making it easy to find and enjoy various radio stations. Whether you want to relax, study, or just have a good time, radioAtlas has got you covered.',
+      href: 'https://radioatlas.streamlit.app',
       texture: '/RadioAtlas.webm',
       logo: '/assets/project-logo2.png',
       logoStyle: {
@@ -117,7 +89,7 @@ export const navLinks = [
       desc: 'This website, titled "Travel," focuses on space tourism and stargazing.',
       subdesc:
         'Key features include a celestial events calendar, virtual space tours, sky maps and stargazing guides, and educational resources on astronomy and space exploration. The platform aims to enable users to experience the cosmos, whether through actual travel or virtual engagement.',
-      href: 'https://astro-nautica42.vercel.app/',
+      href: 'https://astro-nautica42.vercel.app',
       texture: '/astronautica.webm',
       logo: '/assets/project-logo3.png',
       logoStyle: {
@@ -147,11 +119,39 @@ export const navLinks = [
       ],
     },
     {
+      title: 'BrewHaven',
+      desc: 'Coffee Shop website',
+      subdesc:
+        'Built this for a freelance for a coffee vendor to sell and advertise the different type of coffee products.',
+      href:'https://www.youtube.com/watch?v=lQftwBTCejE',
+      texture: '/brewHaven.webm',
+      logo: '/assets/project-logo1.png',
+      logoStyle: {
+        backgroundColor: '#2A1816',
+        border: '0.2px solid #36201D',
+        boxShadow: '0px 0px 60px 0px #AA3C304D',
+      },
+      spotlight: '/assets/spotlight1.png',
+      tags: [
+        {
+          id: 1,
+          name: 'React.js',
+          path: '/assets/react.svg',
+        },
+        {
+          id: 2,
+          name: 'TailwindCSS',
+          path: 'assets/tailwindcss.png',
+        },
+        
+      ],
+    },
+    {
       title: 'Suraksha',
       desc: 'Website created to report crime immediately at your fingertips while remainning anonymous.',
       subdesc:
         'With a focus on efficiency,integrated security features, and a user-friendly interface, Suraksha empowers users to report crimes and incidents with ease, ensuring their safety and peace of mind. ',
-      href: '',
+      href: 'https://chatgpt.com/',
       texture: '/suraksha.mp4',
       logo: '/assets/project-logo3.png',
       logoStyle: {
