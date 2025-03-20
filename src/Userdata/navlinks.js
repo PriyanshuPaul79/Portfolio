@@ -123,7 +123,7 @@ export const navLinks = [
       desc: 'Coffee Shop website',
       subdesc:
         'Built this for a freelance for a coffee vendor to sell and advertise the different type of coffee products.',
-      href:'https://www.youtube.com/watch?v=lQftwBTCejE',
+      href:'https://brewhaven79.vercel.app/',
       texture: '/brewHaven.webm',
       logo: '/assets/project-logo1.png',
       logoStyle: {
