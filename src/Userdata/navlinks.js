@@ -151,7 +151,7 @@ export const navLinks = [
       desc: 'Website created to report crime immediately at your fingertips while remainning anonymous.',
       subdesc:
         'With a focus on efficiency,integrated security features, and a user-friendly interface, Suraksha empowers users to report crimes and incidents with ease, ensuring their safety and peace of mind. ',
-      href: 'https://chatgpt.com/',
+      href: 'https://github.com/PriyanshuPaul79/Suraksha',
       texture: '/suraksha.mp4',
       logo: '/assets/project-logo3.png',
       logoStyle: {
