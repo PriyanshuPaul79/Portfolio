@@ -151,7 +151,7 @@ export const navLinks = [
       desc: 'Website created to help everyone prepare for the upcoming Interviews.',
       subdesc:
         'Train today, triumph tomorrow In this website user can give mock interview with AI interviewer.Refine your technical, communication skills before the actual interview.',
-      href: 'https://github.com/PriyanshuPaul79/NextHire',
+      href: 'https://next-hire-five.vercel.app/',
       texture: '/NextHire.mp4',
       logo: '/assets/NextHire.png',
       logoStyle: {
