@@ -67,7 +67,7 @@ const Hero = () => {
       <div className="absolute bottom-7 -mb-16 left-0 sm:left-2 right-0 w-full z-10 c-space">
         <a href="#contact" className='w-fit'>
           <Connect name="Let's Connect " isBeam containerClass="sm:w-fit w-full sm:min-w-96 mb-4" />
-          <a href="/resume.pdf" download="Priyanshu_Resume.pdf">
+          <a href="/Radhe_Radhe.pdf" download="Priyanshu_Resume.pdf">
             <Connect name="Download Resume" containerClass="sm:w-fit w-full sm:min-w-96 " />
           </a>
         </a>
