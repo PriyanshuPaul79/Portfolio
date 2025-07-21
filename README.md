@@ -2,7 +2,7 @@
 
 A modern, interactive portfolio built with **React**, **Three.js**, and **Vite**. Showcasing frontend skills, AI enthusiasm, and project highlights.
 
-![Hero Section](public/assets/hero.png)
+![Hero Section](public/assets/Hero.png)
 
 ## Features
 
