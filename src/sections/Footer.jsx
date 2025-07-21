@@ -14,7 +14,7 @@ export function FooterSocial() {
                     </a>
 
                 
-                    <a href="www.linkedin.com/in/priyanshu-paul-77735524p" target="_blank" rel="noopener noreferrer" className="p-2 text-gray-500 hover:text-gray-900 dark:hover:text-white transition">
+                    <a href=" https://www.linkedin.com/in/priyanshu-paul-77735524p"  target="_blank" rel="noopener noreferrer" className="p-2 text-gray-500 hover:text-gray-900 dark:hover:text-white transition">
                         <IconBrandLinkedin size={18} stroke={1.5} />
                     </a>
 
