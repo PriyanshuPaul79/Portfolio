@@ -60,4 +60,4 @@ This project uses open-source 3D models. See [`public/laptop/license.txt`](publi
 
 ---
 
-Made with ❤️ by
+Made with ❤️ by Priyanshu Paul
