@@ -13,7 +13,6 @@ import Connect from '../components/Connect'
 import { useState,useEffect } from 'react'
 
 
-
 const Hero = () => {
   const isMobile = useMediaQuery({ query: '(max-width: 450px)' })
   const isTablet = useMediaQuery({ query: '(min-width: 451px) and (max-width: 768px)' })
@@ -31,11 +30,12 @@ const Hero = () => {
 
   return (
     <section className='min-h-screen w-full flex-col relative' id='home'>
+       
       <div className="w-full mx-auto flex flex-col sm:mt-36 mt-20 c-space gap-3">
         <p className='sm:text-3xl text-2xl font-medium text-white text-center font-generalsans'>
-          Hi, Myself Priyanshu <span className='hands-together'>🙏</span>
+          Hey! I’ m Priyanshu<span className='hands-together'>👋</span>
         </p>
-        <p className='hero_tagline text-gray_gradient mb-28 '> Frontend Developer with interest in AI </p>
+        <p className='hero_tagline text-gray_gradient mb-28 '> Building Future of Frontend with Touch of AI </p>
       </div>
 
       <div className='w-full h-full absolute inset-0'>
