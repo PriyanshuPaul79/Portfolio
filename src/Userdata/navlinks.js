@@ -57,6 +57,48 @@ export const navLinks = [
   ];
   
   export const myProjects = [
+      {
+      title: 'Nidaan',
+      desc: 'AI Diagnostic Assistant for Rural HealthcareAI Diagnostic Assistant for Rural Healthcare',
+      subdesc:
+        ' It combines symptom triage, RAG-based protocol grounding, multilingual interaction (Hindi/Hinglish/English), and PHC discovery to support faster and safer primary-care decisions.',
+      href:'https://nidaan7.vercel.app/',
+      texture: '/Nidaan_demo.mp4',
+      logo: '/assets/Nidaan.png',
+      logoStyle: {
+        backgroundColor: '#2A1816',
+        border: '0.2px solid #36201D',
+        boxShadow: '0px 0px 60px 0px #AA3C304D',
+      },
+      spotlight: '/assets/spotlight1.png',
+      tags: [
+        {
+          id: 1,
+          name: 'React.js',
+          path: '/assets/react.svg',
+        },
+        {
+          id: 2,
+          name: 'TailwindCSS',
+          path: 'assets/tailwindcss.png',
+        },
+        {
+          id: 3,
+          name: 'Python',
+          path: '/assets/python.svg',
+        },
+        {
+          id: 4,
+          name: 'FastAPI',
+          path: '/assets/flask.svg',
+        },
+        {
+          id: 5,
+          name:'Langchain',
+          path:'/assets/langchain.png'
+        }
+        ],
+      },
     {
       title: 'RadioAtlas',
       desc: 'Play retro radio songs at your fingertips.',
