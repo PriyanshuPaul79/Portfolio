@@ -90,7 +90,7 @@ export const navLinks = [
         {
           id: 4,
           name: 'FastAPI',
-          path: '/assets/flask.svg',
+          path: '/assets/fastapi.png',
         },
         {
           id: 5,
